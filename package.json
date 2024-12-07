@@ -1,0 +1,33 @@
+{
+	"name": "Parcel SSG",
+	"version": "1.0.0",
+	"description": "Parcel template for building static sites",
+	"scripts": {
+		"build": "parcel build index.html",
+		"deploy": "gh-pages -d dist",
+		"lint": "xo && stylelint style.css",
+		"start": "parcel index.html"
+	},
+	"author": "Advait Chaitanya",
+	"private": true,
+	"license": "MIT",
+	"devDependencies": {
+		"gh-pages": "^1.2.0",
+		"parcel": "^2.13.2",
+		"posthtml": "^0.16.6",
+		"posthtml-modules": "^0.9.1",
+		"stylelint": "^9.4.0",
+		"stylelint-config-xo": "^0.10.0",
+		"xo": "^0.22.0"
+	},
+	"browserslist": "last 2 versions",
+	"stylelint": {
+		"extends": "stylelint-config-xo",
+		"rules": {
+			"property-no-vendor-prefix": null
+		}
+	},
+	"dependencies": {
+		"postcss-preset-env": "^10.1.1"
+	}
+}

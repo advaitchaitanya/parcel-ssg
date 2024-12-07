@@ -1,2 +1,2 @@
-# parcel-ssg
-Parcel template for building static sites
+# Parcel SSG
+> Parcel template for building static sites

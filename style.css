@@ -1,0 +1,29 @@
+:root {
+	--color-black: #111;
+	--color-white: #fff;
+}
+
+@custom-media --breakpoint-small (min-width: 768px);
+@custom-media --breakpoint-medium (min-width: 960px);
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	color: var(--color-black);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.25;
+}
+
+p {
+	line-height: 1.5;
+}
