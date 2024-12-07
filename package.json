@@ -14,6 +14,7 @@
 	"devDependencies": {
 		"gh-pages": "^1.2.0",
 		"parcel": "^2.13.2",
+		"postcss-preset-env": "^10.1.1",
 		"posthtml": "^0.16.6",
 		"posthtml-modules": "^0.9.1",
 		"stylelint": "^9.4.0",
@@ -26,8 +27,5 @@
 		"rules": {
 			"property-no-vendor-prefix": null
 		}
-	},
-	"dependencies": {
-		"postcss-preset-env": "^10.1.1"
 	}
 }
