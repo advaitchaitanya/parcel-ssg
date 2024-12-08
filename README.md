@@ -5,10 +5,10 @@
 `npm start`
 
 ## Lint CSS and JS with [XO](https://github.com/xojs/xo)
-`npm lint`
+`npm run lint`
 
 ## Build for prodution
-`npm build`
+`npm run build`
 
 ## Deploy on [GitHub Pages](https://pages.github.com/)
-`npm deploy`
+`npm run deploy`
